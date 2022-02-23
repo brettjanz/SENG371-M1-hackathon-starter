@@ -8,6 +8,8 @@ Hackathon Starter
 
 Jump to [What's new?](https://github.com/sahat/hackathon-starter/blob/master/CHANGELOG.md)
 
+This fork of the project is being used to demonstrate continuous integration with github actions
+
 A boilerplate for **Node.js** web applications.
 
 If you have attended any hackathons in the past, then you know how much time it takes to
