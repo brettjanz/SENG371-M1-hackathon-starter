@@ -15,15 +15,15 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: install npm and run build
-      run: |
-        npm ci
-        npm run build
-    - uses: actions/upload-artifact@main
-      with:
-        name: build artifacts
-        path: public/
+      - uses: actions/checkout@v2
+      - name: install npm and run build
+        run: |
+          npm ci
+          npm run build
+      - uses: actions/upload-artifact@main
+        with:
+          name: build artifacts
+          path: public/
   
   test:
     needs: build
